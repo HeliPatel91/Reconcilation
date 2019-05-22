@@ -6,7 +6,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ReconcilationTest {
+public class ReconciliationTest {
 
 	@Test
 	public void numericInputs()
@@ -39,7 +39,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add(111);
 		expectedUnmatched.add(14.4);
 		
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -79,7 +79,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add(111);
 		expectedUnmatched.add(14.4);
 		
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -119,7 +119,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add("TRAD2");
 		expectedUnmatched.add("TRADE4");
 		
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -160,7 +160,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add(1);
 		expectedUnmatched.add(48);
 		
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -187,7 +187,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add(1);
 		expectedUnmatched.add(1);
 
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -214,7 +214,7 @@ public class ReconcilationTest {
 		expectedUnmatched.add(1);
 		expectedUnmatched.add("ABC");
 
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		
@@ -236,7 +236,7 @@ public class ReconcilationTest {
 		
 		List<Object> expectedUnmatched = new ArrayList<Object>();
 
-		ReconciledData result = Reconcilation.reconcileData(listA, listB);
+		ReconciledData result = Reconciliation.reconcileData(listA, listB);
 		printItems("Matched", result.getMatchedList());
 		printItems("Unmatched", result.getUnmatchedItems());
 		

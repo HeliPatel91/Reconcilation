@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Reconcilation {
+public class Reconciliation {
 
 	//this function is accepting 2 list of data and returning datastructure of matched and unmatched items
 	public static ReconciledData reconcileData(List<?> listA, List<?> listB)
