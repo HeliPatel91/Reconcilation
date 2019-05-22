@@ -1,4 +1,4 @@
-# Reconcilation
+# Reconciliation
 A method which returns the reconciled data of two lists
 
 For execution of the code please follow the steps as below:
